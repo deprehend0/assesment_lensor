@@ -10,7 +10,7 @@ logo_path = "../Logo_train"
 logo_test = "../Logo_test"
 
 ### Tools
-batch_size = 64
+batch_size = 128
 n_labels = len(os.listdir('../Logo_train'))
 
 def generators(shape, preprocessing):
